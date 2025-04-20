@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sideway Sensation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="fade-in">
+  <div class="page-wrapper">
+    <!-- Top Banner -->
+    <header class="top-banner">
+      <img src="TOP banner.png" alt="Sideway Sensation Banner">
+    </header>
+
+    <!-- Header Section -->
+    <section class="header">
+      <h1>Sideway Sensation Drift Build Fan Funds</h1>
+      <div class="cart">
+        🛒 <span id="cart-count">0</span>
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="products">
+      <div class="product">
+        <img src="pink-flat-1.jpg" alt="Pink Flat Cap" class="slideshow" data-images='["pink-flat-1.jpg", "pink-flat-2.jpg"]'>
+        <h2>Pink Flat Cap</h2>
+        <p>R150</p>
+        <button onclick="addToCart('Pink Flat Cap')">Add to Basket</button>
+      </div>
+
+      <div class="product">
+        <img src="gray-flat-1.jpg" alt="Gray Flat Cap" class="slideshow" data-images='["gray-flat-1.jpg", "gray-flat-2.jpg"]'>
+        <h2>Gray Flat Cap</h2>
+        <p>R150</p>
+        <button onclick="addToCart('Gray Flat Cap')">Add to Basket</button>
+      </div>
+
+      <div class="product">
+        <img src="gray-black-1.jpg" alt="Gray & Black Cap" class="slideshow" data-images='["gray-black-1.jpg", "gray-black-2.jpg"]'>
+        <h2>Gray & Black Cap</h2>
+        <p>R150</p>
+        <button onclick="addToCart('Gray & Black Cap')">Add to Basket</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
